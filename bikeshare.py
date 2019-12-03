@@ -169,7 +169,7 @@ def user_stats(df, city):
     print('-'*40)
 
 
-def show_data(df):
+def more_date(df):
     """
     Show raw data as requested by user.
     """
@@ -196,7 +196,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        show_data(df)
+        more_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
