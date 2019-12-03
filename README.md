@@ -5,11 +5,7 @@
 Bikeshare analysis with python
 
 ### Description
-Describe what your project is about and what it does
+Deep statistics and analysis for bikeshare data in three US major cities using Python and Pandas library.
 
-### Files used
-Include the files used
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
