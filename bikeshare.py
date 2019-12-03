@@ -26,7 +26,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city=input('Choose a city to explore : Chicago , New York City, or Washington:\n')
+        city=input('Can you Choose a city to explore : Chicago , New York City, or Washington?\n')
         if city.lower() not in CITY_DATA.keys():
             print('You should enter a valid city')
         else:
@@ -169,7 +169,7 @@ def user_stats(df, city):
     print('-'*40)
 
 
-def show_data(df):
+def more_date(df):
     """
     Show raw data as requested by user.
     """
@@ -196,7 +196,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        show_data(df)
+        more_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
